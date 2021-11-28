@@ -1,0 +1,11 @@
+/* homePage */
+.historyCont {
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+
+@media screen and (min-width: 600px) {
+  .homeContainer {
+    margin-top: -4rem;
+  }
+}

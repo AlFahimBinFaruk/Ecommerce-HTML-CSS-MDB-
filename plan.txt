@@ -1,0 +1,7 @@
+ 1.home---->>>1.Navbar.
+              2.Banner.
+              3.All Product Category.
+              4.Browsing History.
+              5.Footer.
+
+----------------------************----------------------           
