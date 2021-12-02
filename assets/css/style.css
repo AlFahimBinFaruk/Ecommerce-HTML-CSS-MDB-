@@ -1,25 +1,38 @@
 /* logo  */
-.brandLogo > a {
+.brandLogo>a {
   font-family: cursive;
 }
 
+a {
+  color: inherit;
+}
+
+.userMsg {
+  background: #28232329;
+  border-radius: 5px;
+  padding: 1rem;
+  font-weight: bold;
+}
 
 /* scroolbar css */
 ::-webkit-scrollbar {
   width: 10px;
 }
+
 ::-webkit-scrollbar-track {
   background: #f1f1f1b9;
 }
+
 ::-webkit-scrollbar-thumb {
   background: rgba(136, 136, 136, 0.432);
   border-radius: 10px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
 
-.card{
-    cursor: pointer;
+.card img,
+.card-text {
+  cursor: pointer;
 }
-

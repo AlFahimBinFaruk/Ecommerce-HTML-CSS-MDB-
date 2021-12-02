@@ -4,8 +4,17 @@
   overflow-x: scroll;
 }
 
+.homeContainer{
+  margin-top: 0.5rem;
+}
+
 @media screen and (min-width: 600px) {
   .homeContainer {
-    margin-top: -4rem;
+    margin-top: -2rem;
+    z-index: 9999;
+  }
+
+  .carousel-item img {
+    height: 50vh;
   }
 }

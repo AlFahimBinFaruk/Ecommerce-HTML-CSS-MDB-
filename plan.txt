@@ -5,3 +5,60 @@
               5.Footer.
 
 ----------------------************----------------------           
+
+2.shop---->>>>1.Navbar.
+              2.Navigation.
+
+              ******leftcard******
+              3.Filter--->>>1.search.
+                            2.Sort.
+                            3.Min Price.
+                            4.Max Price.
+                            5.Filter By Brands.
+              ******leftcard******
+
+              ******rightcard******
+              4.product list
+              5.Pagination(Style)
+              ******rightcard******
+
+
+----------------------************----------------------  
+
+
+3.product details------>>>>>1.Navbar.
+                            2.Navigation.
+
+                            ****FirstCard*****
+                            3.productImage--->>1.Main Image
+                                               2.Demo Images(4)
+
+                            4.product details----->>>>>1.Name.
+                                                       2.Category.
+                                                       3.Price.
+                                                       4.rating.
+                                                       5.details.
+                                                       6.qty.
+                                                       7.Add to cart && add to wishlist btn                
+
+                            *****second card(elaborate details)*****
+                            5.Details.
+                            6.Features.
+                            7.specifications.
+
+
+
+                            ***rating****
+                            8.overall rating.
+                            9.users rating list.
+                            10.leave a rating.
+
+
+                            11.similar product like that list....
+
+
+
+----------------------************----------------------
+
+4.Login.
+5.Register.

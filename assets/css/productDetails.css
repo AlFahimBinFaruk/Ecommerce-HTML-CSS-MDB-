@@ -1,0 +1,24 @@
+.mainImg img {
+    width: 100%;
+    border-radius: 9px;
+}
+
+.demoImg img {
+    width: 20%;
+    border-radius: 5px;
+}
+
+.demoImg {
+    display: flex;
+    margin: 0.5rem 0;
+    justify-content: space-between;
+}
+
+.qty {
+    width: 60%;
+}
+
+.suggestedProductList {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
