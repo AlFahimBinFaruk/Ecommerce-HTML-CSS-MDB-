@@ -1,9 +1,4 @@
 /* homePage */
-.historyCont {
-  flex-wrap: nowrap;
-  overflow-x: scroll;
-}
-
 .homeContainer{
   margin-top: 0.5rem;
 }

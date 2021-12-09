@@ -1,15 +1,27 @@
 //productlist
-let productList = document.getElementById("productList");
-let producthtml = "";
+let WproductList = document.getElementById("WproductList");
+let Wproducthtml = "";
 for (let i = 0; i < 10; i++) {
-  producthtml += `<div class="col-lg-3 col-md-3 mb-4">
+  Wproducthtml += `<div class="col-lg-3 col-md-3 mb-4">
   <div class="card shadow">
-      <a href="ProductDetails.html">
+      <a href="/product/ProductDetails.html">
           <img src="https://mdbootstrap.com/img/new/standard/nature/137.jpg" class="card-img-top" alt="..." />
-      </a>
+          </a>
+          <span
+          class="
+            btn btn-icon btn-danger
+            position-absolute
+            top-0
+            end-0
+            right-28
+            py-1
+            px-2
+            m-2
+          "
+          ><i class="far fa-trash-alt"></i></span>
       <div class="card-body">
           <div class="card-text">
-              <a href="ProductDetails.html">
+              <a href="/product/ProductDetails.html">
                   <h6>Macbook Air M1</h6>
               </a>
               <p>
@@ -27,4 +39,4 @@ for (let i = 0; i < 10; i++) {
   </div>
 </div>`;
 }
-productList.innerHTML = producthtml;
+WproductList.innerHTML = Wproducthtml;

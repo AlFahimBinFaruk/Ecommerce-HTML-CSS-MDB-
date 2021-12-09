@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../assets//images/favicon.png" type="image/png" />
+    <title>Ecommerce</title>
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <!-- custom style -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <!-- cart style -->
+    <link rel="stylesheet" href="../assets/css/cart.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light"
+      id="navbar"
+    ></nav>
+    <!-- Navbar -->
+
+    <!-- container -->
+    <div class="container my-4">
+      <!-- navigation -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light shadow my-3">
+        <div class="container-fluid">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Shop</a></li>
+              <li class="breadcrumb-item active" aria-current="page">
+                <a href="#">Laptop</a>
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </nav>
+      <!-- navigation -->
+
+      <!-- cart -->
+      <div class="bg-light shadow-lg rounded-3 overflow-hidden my-3">
+        <div class="row">
+          <!-- Content-->
+          <section class="col-lg-8 pt-2 pt-lg-4 pb-4 mb-3">
+            <div class="pt-2 px-4 pe-lg-0 ps-xl-5">
+              <!-- CART Header-->
+              <div
+                class="
+                  d-flex
+                  flex-wrap
+                  justify-content-between
+                  align-items-center
+                  border-bottom
+                  pb-3
+                "
+              >
+                <div class="py-1">
+                  <a type="button" class="btn btn-sm btn-outline-dark" href="#"
+                    ><i class="ci-arrow-left me-1 ms-n1"></i>Back to shopping</a
+                  >
+                </div>
+                <div class="d-none d-sm-block py-1 fs-sm">
+                  You have 3 products in your cart
+                </div>
+                <div class="py-1">
+                  <a class="btn btn-outline-danger btn-sm" href="#"
+                    ><i class="ci-close fs-xs me-1 ms-n1"></i>Clear cart</a
+                  >
+                </div>
+              </div>
+              <!-- CART Header-->
+
+              <!-- Product-->
+              <div
+                class="d-block d-sm-flex align-items-center py-4 border-bottom"
+              >
+                <a
+                  class="
+                    d-block
+                    position-relative
+                    mb-3 mb-sm-0
+                    me-sm-4
+                    ms-sm-0
+                    mx-auto
+                  "
+                  href="marketplace-single.html"
+                  style="width: 12.5rem"
+                  ><img
+                    class="rounded-3 cartProductImg"
+                    src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+                    alt="Product" />
+                  <span
+                    class="
+                      btn btn-icon btn-danger
+                      position-absolute
+                      top-0
+                      end-0
+                      right-28
+                      py-0
+                      px-1
+                      m-2
+                    "
+                    ><i class="far fa-trash-alt"></i></span
+                ></a>
+                <div class="text-center text-sm-start">
+                  <h3 class="h6 product-title mb-2">
+                    <a href="marketplace-single.html">Dell vostro 15s</a>
+                  </h3>
+                  <div class="d-inline-block text-accent">
+                    $23.<small>00</small>
+                  </div>
+                  <a
+                    class="
+                      d-inline-block
+                      text-accent
+                      fs-ms
+                      border-start
+                      ms-2
+                      ps-2
+                    "
+                    href="#"
+                    >DELL</a
+                  >
+                  <div class="form-inline pt-2">
+                    <div class="qty">
+                      <h5>Quantity:</h5>
+                      <div class="input-group cartQtyInput">
+                        <button class="btn btn-danger">
+                          <i class="fas fa-minus-circle"></i>
+                        </button>
+                        <input
+                          type="number"
+                          id="typeNumber"
+                          class="form-control"
+                          value="1"
+                        />
+                        <button class="btn btn-warning">
+                          <i class="fas fa-plus-circle"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Product-->
+
+              <!-- Product-->
+              <div
+                class="d-block d-sm-flex align-items-center py-4 border-bottom"
+              >
+                <a
+                  class="
+                    d-block
+                    position-relative
+                    mb-3 mb-sm-0
+                    me-sm-4
+                    ms-sm-0
+                    mx-auto
+                  "
+                  href="marketplace-single.html"
+                  style="width: 12.5rem"
+                  ><img
+                    class="rounded-3 cartProductImg"
+                    src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+                    alt="Product" />
+                  <span
+                    class="
+                      btn btn-icon btn-danger
+                      position-absolute
+                      top-0
+                      end-0
+                      right-28
+                      py-0
+                      px-1
+                      m-2
+                    "
+                    ><i class="far fa-trash-alt"></i></span
+                ></a>
+                <div class="text-center text-sm-start">
+                  <h3 class="h6 product-title mb-2">
+                    <a href="marketplace-single.html">Dell vostro 15s</a>
+                  </h3>
+                  <div class="d-inline-block text-accent">
+                    $23.<small>00</small>
+                  </div>
+                  <a
+                    class="
+                      d-inline-block
+                      text-accent
+                      fs-ms
+                      border-start
+                      ms-2
+                      ps-2
+                    "
+                    href="#"
+                    >DELL</a
+                  >
+                  <div class="form-inline pt-2">
+                    <div class="qty">
+                      <h5>Quantity:</h5>
+                      <div class="input-group cartQtyInput">
+                        <button class="btn btn-danger">
+                          <i class="fas fa-minus-circle"></i>
+                        </button>
+                        <input
+                          type="number"
+                          id="typeNumber"
+                          class="form-control"
+                          value="1"
+                        />
+                        <button class="btn btn-warning">
+                          <i class="fas fa-plus-circle"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Product-->
+            </div>
+          </section>
+
+          <!-- SUMMARY-->
+          <aside class="col-lg-4 ps-xl-5">
+            <hr class="d-lg-none" />
+            <div class="p-4 h-100 ms-auto border-start">
+              <div class="px-lg-2">
+                <div class="text-center mb-4 py-3 border-bottom">
+                  <h2 class="h6 mb-3 pb-1">Cart total</h2>
+                  <h3 class="fw-normal">$56.<small>00</small></h3>
+                </div>
+                <div class="text-center mb-4 pb-3 border-bottom">
+                  <h2 class="h6 mb-3 pb-1">Promo code</h2>
+                  <form
+                    class="needs-validation pb-2"
+                    method="post"
+                    novalidate=""
+                  >
+                    <div class="mb-3">
+                      <input
+                        class="form-control"
+                        type="text"
+                        placeholder="Promo code"
+                        required=""
+                      />
+                      <div class="invalid-feedback">
+                        Please provide promo code.
+                      </div>
+                    </div>
+                    <button
+                      class="btn btn-secondary d-block w-100"
+                      type="submit"
+                    >
+                      Apply promo code
+                    </button>
+                  </form>
+                </div>
+                <a
+                  class="btn btn-primary btn-shadow d-block w-100 mt-4"
+                  href="/checkout/checkout.html"
+                  ><i class="ci-locked fs-lg me-2"></i>Secure Checkout</a
+                >
+                <div class="text-center pt-2 pb-3">
+                  <small class="text-form text-muted"
+                    >100% money back guarantee</small
+                  >
+                </div>
+              </div>
+            </div>
+          </aside>
+          <!-- SUMMARY -->
+        </div>
+      </div>
+      <!-- cart -->
+    </div>
+    <!-- container -->
+
+    <!-- Footer -->
+    <footer
+      class="text-center text-lg-start text-muted"
+      style="background-color: rgba(70, 67, 67, 0.158)"
+    >
+      <!-- Section: Social media -->
+      <section
+        class="
+          d-flex
+          justify-content-center justify-content-lg-between
+          p-4
+          border-bottom
+        "
+      >
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>Company name
+              </h6>
+              <p>
+                Here you can use rows and columns to organize your footer
+                content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+              <p>
+                <a href="#!" class="text-reset">Angular</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">React</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Vue</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Laravel</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+              <p>
+                <a href="#!" class="text-reset">Pricing</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Settings</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Orders</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Help</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                info@example.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+              <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div
+        class="text-center p-4"
+        style="background-color: rgba(0, 0, 0, 0.199)"
+      >
+        © 2021 Copyright:
+        <a class="text-reset fw-bold" href="#">TechStore.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.0/mdb.min.js"
+    ></script>
+  </body>
+  <script src="../assets/js/Navbar.js"></script>
+</html>

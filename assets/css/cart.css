@@ -1,0 +1,15 @@
+.cartProductImg {
+  border: 2px solid #b5b2b2;
+  width: 100%;
+  margin: auto;
+}
+
+.cartQtyInput {
+  width: 65%;
+}
+
+@media screen and (max-width: 450px) {
+  .cartQtyInput {
+    margin: auto;
+  }
+}

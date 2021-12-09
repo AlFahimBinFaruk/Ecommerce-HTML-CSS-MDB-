@@ -1,0 +1,25 @@
+.orderHistoryProduct {
+  width: 100%;
+  border: 2px solid rgb(168, 168, 168);
+}
+
+@media screen and (max-width: 500px) {
+  .orderliststablewr {
+    overflow-x: scroll;
+  }
+  /* display flex for mobile device */
+  .md-flex {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+  }
+  .orderHistoryProduct{
+      margin-bottom: 8px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .orderlistmodal-dialog {
+    max-width: 540px !important;
+  }
+}

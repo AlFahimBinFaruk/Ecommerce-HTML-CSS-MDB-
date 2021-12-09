@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../assets//images/favicon.png" type="image/png" />
+    <title>Ecommerce</title>
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <!-- custom style -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <!-- checkout style -->
+    <link rel="stylesheet" href="../assets/css/checkout.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+     
+    </nav>
+    <!-- Navbar -->
+
+    <!-- container -->
+    <div class="container my-4">
+      <!-- navigation -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light shadow my-3">
+        <div class="container-fluid">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Shop</a></li>
+              <li class="breadcrumb-item active" aria-current="page">
+                <a href="#">Laptop</a>
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </nav>
+      <!-- navigation -->
+
+      <!-- checkout -->
+      <div class="px-3 pt-2">
+        <!-- Content-->
+        <!-- Checkout form-->
+        <form class="needs-validation" novalidate="">
+          <div class="row g-0 pb-5 mb-xl-3">
+            <!-- Delivery details-->
+            <div class="card card-body shadow col-xl-6 mb-3 h-100">
+              <!-- details form -->
+              <div class="row gx-4 gy-3">
+                <h2 class="h5">Delivery details</h2>
+                <hr />
+                <div class="col-sm-12">
+                  <div class="form-outline">
+                    <input type="text" id="form1" class="form-control" />
+                    <label class="form-label" for="form1">Username</label>
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <div class="form-outline">
+                    <input type="tel" id="form12" class="form-control" />
+                    <label class="form-label" for="form12">Phone Number</label>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-outline">
+                    <input type="email" id="form12" class="form-control" />
+                    <label class="form-label" for="form12">Email</label>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-outline">
+                    <input type="text" id="form12" class="form-control" />
+                    <label class="form-label" for="form12">Post Code</label>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-outline">
+                    <input type="text" id="form12" class="form-control" />
+                    <label class="form-label" for="form12">City</label>
+                  </div>
+                </div>
+                <div class="col-sm-12">
+                  <div class="form-outline">
+                    <input type="text" id="form12" class="form-control" />
+                    <label class="form-label" for="form12">Address</label>
+                  </div>
+                </div>
+                <div class="col-sm-12">
+                  <div class="form-outline">
+                    <textarea
+                      class="form-control"
+                      id="textAreaExample"
+                      rows="4"
+                    ></textarea>
+                    <label class="form-label" for="textAreaExample"
+                      >Please write here any additional information...</label
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- details form -->
+              <div class="rounded-3 border p-4 my-3">
+                <h2 class="h6 pb-2">Do you have a coupon code?</h2>
+                <div class="d-flex">
+                  <div class="form-outline w-70">
+                    <input
+                      type="text"
+                      id="formControlLg"
+                      class="form-control form-control-lg"
+                    />
+                    <label class="form-label" for="formControlLg"
+                      >Cuopon Code</label
+                    >
+                  </div>
+                  <button class="btn btn-secondary ml-1" type="button">
+                    Apply code
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- Delivery details-->
+
+            <!-- Order summary + payment-->
+            <div class="col-xl-5 offset-xl-1 mb-2">
+              <!-- orderlistCard -->
+              <div class="orderlistCard card card-body rounded-3 shadow">
+                <h2 class="h5">Your order</h2>
+                <hr />
+                <!-- orderitems -->
+                <!--single orderitem -->
+                <div class="d-flex align-items-center pb-2 border-bottom">
+                  <a class="d-block flex-shrink-0" href="grocery-single.html">
+                    <img
+                      src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+                      class="rounded"
+                      width="64"
+                      alt="Product"
+                    />
+                  </a>
+                  <div class="ps-2">
+                    <h6 class="widget-product-title">
+                      <a href="grocery-single.html">Hp pavilion 5</a>
+                    </h6>
+                    <div class="widget-product-meta">
+                      <span class="text-accent me-2"
+                        >$500.<small>00</small></span
+                      ><span class="text-muted">x 1</span>
+                    </div>
+                  </div>
+                </div>
+                <!--single orderitem -->
+
+                <!--single orderitem -->
+                <div class="d-flex align-items-center pb-2 border-bottom">
+                  <a class="d-block flex-shrink-0" href="grocery-single.html">
+                    <img
+                      src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+                      class="rounded"
+                      width="64"
+                      alt="Product"
+                    />
+                  </a>
+                  <div class="ps-2">
+                    <h6 class="widget-product-title">
+                      <a href="grocery-single.html">Hp pavilion 5</a>
+                    </h6>
+                    <div class="widget-product-meta">
+                      <span class="text-accent me-2"
+                        >$500.<small>00</small></span
+                      ><span class="text-muted">x 1</span>
+                    </div>
+                  </div>
+                </div>
+                <!--single orderitem -->
+
+                <!-- orderitems -->
+
+                <!-- count -->
+                <ul class="list-unstyled fs-sm pt-4 pb-2">
+                  <li class="d-flex justify-content-between align-items-center">
+                    <span class="me-2">Total:</span>
+                    <span class="text-end fw-medium"
+                      >$25.<small>00</small></span
+                    >
+                  </li>
+                  <li class="d-flex justify-content-between align-items-center">
+                    <span class="me-2">Delivery:</span>
+                    <span class="text-end fw-medium">$7.<small>00</small></span>
+                  </li>
+                  <hr />
+                  <li class="d-flex justify-content-between align-items-center">
+                    <span class="me-2"><b>Subtotal:</b></span>
+                    <span class="text-end fw-medium"
+                      ><b>$7.<small>00</small></b></span
+                    >
+                  </li>
+                </ul>
+                <!-- count -->
+              </div>
+              <!-- orderlistCard -->
+
+              <!-- placeorderCard -->
+              <div class="placeorderCard card card-body rounded-3 shadow my-3">
+                <div
+                  class="accordion shadow-sm rounded-3 mb-4"
+                  id="payment-methods"
+                >
+                  <div class="accordion-item border-bottom">
+                    <div class="accordion-header px-3">
+                      <div
+                        class="form-check d-table accordion-button"
+                        type="button"
+                        data-mdb-toggle="collapse"
+                        data-mdb-target="#credit-card"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="license"
+                          id="payment-card"
+                          checked=""
+                        />
+                        <label
+                          class="form-check-label fw-medium text-dark"
+                          for="payment-card"
+                          >Credit card<i
+                            class="
+                              far
+                              fa-credit-card
+                              text-muted
+                              fs-lg
+                              align-middle
+                              mt-n1
+                              ms-2
+                            "
+                          ></i
+                        ></label>
+                      </div>
+                    </div>
+                    <div
+                      class="collapse show"
+                      id="credit-card"
+                      data-bs-parent="#payment-methods"
+                    >
+                      <div class="accordion-body py-2">
+                        <input
+                          class="form-control bg-image-none mb-3"
+                          type="text"
+                          placeholder="Card number"
+                        />
+                        <div class="row">
+                          <div class="col-6 mb-3">
+                            <input
+                              class="form-control bg-image-none"
+                              type="text"
+                              placeholder="MM/YY"
+                            />
+                          </div>
+                          <div class="col-6 mb-3">
+                            <input
+                              class="form-control bg-image-none"
+                              type="text"
+                              placeholder="CVC"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item border-bottom">
+                    <div class="accordion-header px-3">
+                      <div
+                        class="form-check d-table accordion-button"
+                        type="button"
+                        data-mdb-toggle="collapse"
+                        data-mdb-target="#paypal"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="license"
+                          id="payment-paypal"
+                        />
+                        <label
+                          class="form-check-label fw-medium text-dark"
+                          for="payment-paypal"
+                          >PayPal<i
+                            class="
+                              fab
+                              fa-cc-paypal
+                              text-muted
+                              fs-base
+                              align-middle
+                              mt-n1
+                              ms-2
+                            "
+                          ></i
+                        ></label>
+                      </div>
+                    </div>
+                    <div
+                      class="collapse"
+                      id="paypal"
+                      data-bs-parent="#payment-methods"
+                    >
+                      <div class="accordion-body pt-2">
+                        <button class="btn btn-info">Proceed To Paypal</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header px-3">
+                      <div
+                        class="form-check d-table accordion-button"
+                        type="button"
+                        data-mdb-toggle="collapse"
+                        data-mdb-target="#cash"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="license"
+                          id="payment-cash"
+                        />
+                        <label
+                          class="form-check-label fw-medium text-dark"
+                          for="payment-cash"
+                          >Cash on delivery<i
+                            class="
+                              fas
+                              fa-wallet
+                              text-muted
+                              fs-lg
+                              align-middle
+                              mt-n1
+                              ms-2
+                            "
+                          ></i
+                        ></label>
+                      </div>
+                    </div>
+                    <div class="collapse" id="cash">
+                      <div class="accordion-body pt-2">
+                        <b> I will pay with cash to the courier on delivery.</b>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pt-2">
+                  <button class="btn btn-success d-block w-100">
+                    Place Order
+                  </button>
+                </div>
+              </div>
+              <!-- placeorderCard -->
+            </div>
+            <!-- Order summary + payment-->
+          </div>
+        </form>
+      </div>
+      <!-- checkout -->
+    </div>
+    <!-- container -->
+
+    <!-- Footer -->
+    <footer
+      class="text-center text-lg-start text-muted"
+      style="background-color: rgba(70, 67, 67, 0.158)"
+    >
+      <!-- Section: Social media -->
+      <section
+        class="
+          d-flex
+          justify-content-center justify-content-lg-between
+          p-4
+          border-bottom
+        "
+      >
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>Company name
+              </h6>
+              <p>
+                Here you can use rows and columns to organize your footer
+                content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+              <p>
+                <a href="#!" class="text-reset">Angular</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">React</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Vue</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Laravel</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+              <p>
+                <a href="#!" class="text-reset">Pricing</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Settings</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Orders</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Help</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                info@example.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+              <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div
+        class="text-center p-4"
+        style="background-color: rgba(0, 0, 0, 0.199)"
+      >
+        © 2021 Copyright:
+        <a class="text-reset fw-bold" href="#">TechStore.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.0/mdb.min.js"
+    ></script>
+  </body>
+  <script src="../assets/js/Navbar.js"></script>
+</html>

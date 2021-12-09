@@ -1,5 +1,5 @@
 /* logo  */
-.brandLogo>a {
+.brandLogo > a {
   font-family: cursive;
 }
 
@@ -35,4 +35,30 @@ a {
 .card img,
 .card-text {
   cursor: pointer;
+}
+
+/* historypagecss */
+.historyCont {
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+
+.fs-ms {
+  font-size: 0.8125rem !important;
+}
+
+.fs-sm {
+  font-size: 0.875rem !important;
+}
+
+/* 404img style */
+.img404 {
+  width: 100%;
+}
+
+.internalErrorText {
+  font-size: 10rem;
+  color: #fff;
+  text-shadow: -0.0625rem 0 #fe696a, 0 0.0625rem #fe696a, 0.0625rem 0 #fe696a,
+    0 -0.0625rem #fe696a;
 }
